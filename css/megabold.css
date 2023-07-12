@@ -254,6 +254,7 @@ object {
 .site-header {
 	padding: 20px 0 0;
 	background-image: transparent;
+
 	}
 .site-branding {
 	float: left;
@@ -270,7 +271,7 @@ object {
 	text-decoration: none;
 	}
 .site-description {
-	color: rgb(135, 135, 135);
+	color: rgb(108, 108, 108);
 	font-family: "Yanone Kaffeesatz", "Microsoft YaHei Light", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -376,7 +377,7 @@ object {
 	border-bottom: 1px solid #fd4848;
 	}
 #main-navigation li li a {
-	color: #ffabab;
+	color: #ed9e9e;
 	}
 #main-navigation li a:hover,
 #main-navigation li.sfHover > a,

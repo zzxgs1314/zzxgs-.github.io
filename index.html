@@ -86,15 +86,13 @@ var themeMenus = {};
 
   themeMenus["/"] = "Home"; 
 
-  themeMenus["/archives"] = "Archives"; 
-
   themeMenus["/diamond%20painting/"] = "diamond painting"; 
 
   themeMenus["/Night-Light-Custom/"] = "night light"; 
 
   themeMenus["/Custom-Bag/"] = "custom bag"; 
 
-  themeMenus["/about"] = "About"; 
+  themeMenus["/about/"] = "About"; 
 
 </script>
 
@@ -141,15 +139,13 @@ var themeMenus = {};
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
                 
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
-                
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/diamond%20painting/">diamond painting</a> </li>
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/Night-Light-Custom/">night light</a> </li>
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/Custom-Bag/">custom bag</a> </li>
                 
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about/">About</a> </li>
                 
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" style="float: right;"><div id="search-form-wrap">
     
@@ -198,33 +194,6 @@ var themeMenus = {};
 </header>
 
 
-  <div id="originBgDiv" style="background: #fff; width: 100%;">
-
-      <div style="max-height:600px; overflow: hidden;  display: flex; display: -webkit-flex; align-items: center;">
-        <img id="originBg" width="100%" alt="" src="">
-      </div>
-
-  </div>
-
-  <script>
-  function setAboutIMG(){
-      var imgUrls = "css/images/pose.jpg,https://source.unsplash.com/collection/954550/1920x1080".split(",");
-      var random = Math.floor((Math.random() * imgUrls.length ));
-      if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-        document.getElementById("originBg").src=imgUrls[random];
-      } else {
-        document.getElementById("originBg").src='/' + imgUrls[random];
-      }
-  }
-  bgDiv=document.getElementById("originBgDiv");
-  if(location.pathname.match('about')){
-    setAboutIMG();
-    bgDiv.style.display='block';
-  }else{
-    bgDiv.style.display='none';
-  }
-  </script>
-
 
 
   <div id="container" style>
@@ -244,11 +213,14 @@ var themeMenus = {};
           <image src="/preview/news.jpeg" class="cover-image-show" />
         
         <a href="/2023/07/11/blog/" class="post-title-recent">
-          A good path towards better diamond painting <br>
+          How do I start custom diamond painting and more <br>
           <b class="datetime recent">July 11, 2023</b></span></div>
         </a>
       <h2 class="class-name">Top News</h2>
       
+    
+  
+    
     
   
     
@@ -266,7 +238,7 @@ var themeMenus = {};
           
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/blog/">A good path towards better diamond painting</a>
+      <a class="article-title" href="/2023/07/11/blog/">How do I start custom diamond painting and more</a>
     </h1>
   
 
@@ -290,11 +262,11 @@ var themeMenus = {};
 
           
             <div class="entry-thumbnail">
-              <a href="/2023/07/11/blog/"><img width="250" height="175" src="/medias/feature/5.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
+              <a href="/2023/07/11/blog/"><img width="250" height="175" src="/medias/feature/20.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
             </div>
             <br>
             <div class="entry-summary">
-            Personalize Your Diamond Painting: Adding a Touch of Individuality to Your MasterpieceDiamond painting is not only a creative and therapeutic activ...
+            BegainingI used to be an Amazon seller, and to be honest, I didn’t know much about the products or customers. I was just looking to make some extra...
           
 
         
@@ -320,7 +292,7 @@ var themeMenus = {};
     
 
   
-    <article id="post-blog - Copy" style="display: inline-block;margin-bottom: 20px;" class="article article-type-post" itemscope itemprop="blogPost" >
+    <article id="post-thanks for being here" style="display: inline-block;margin-bottom: 20px;" class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
     
@@ -329,7 +301,7 @@ var themeMenus = {};
           
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2021/07/14/blog%20-%20Copy/">diamond painting</a>
+      <a class="article-title" href="/2022/09/11/thanks%20for%20being%20here/">Thanks for being here!</a>
     </h1>
   
 
@@ -339,8 +311,8 @@ var themeMenus = {};
     
       <div class="article-meta m-page">
         
-	<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>Posted on <a href="/2021/07/14/blog%20-%20Copy/" class="article-date">
-		<time datetime="2021-07-14T21:08:18.000Z" itemprop="datePublished">July 14, 2021</time>
+	<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>Posted on <a href="/2022/09/11/thanks%20for%20being%20here/" class="article-date">
+		<time datetime="2022-09-11T21:08:18.000Z" itemprop="datePublished">September 11, 2022</time>
 	</a>
 
         
@@ -353,7 +325,70 @@ var themeMenus = {};
 
           
             <div class="entry-thumbnail">
-              <a href="/2021/07/14/blog%20-%20Copy/"><img width="250" height="175" src="/medias/feature/12.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
+              <a href="/2022/09/11/thanks%20for%20being%20here/"><img width="250" height="175" src="/medias/feature/10.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
+            </div>
+            <br>
+            <div class="entry-summary">
+            We’re passionate about creating unique and enchanting pieces to enhance your home decor. Whether you’re a diamond painting enthusiast, a fan of mes...
+          
+
+        
+          <p class="article-more-link">
+            <a href="/2022/09/11/thanks%20for%20being%20here/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+      
+            
+      
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+    
+
+  
+    <article id="post-Famliy series of diamond painting" style="display: inline-block;margin-bottom: 20px;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      
+        <header class="article-header m-page">
+          
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/">Famliy series of diamond painting</a>
+    </h1>
+  
+
+        </header>
+      
+    
+    
+      <div class="article-meta m-page">
+        
+	<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>Posted on <a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/" class="article-date">
+		<time datetime="2021-07-08T21:08:18.000Z" itemprop="datePublished">July 8, 2021</time>
+	</a>
+
+        
+      </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        
+
+          
+            <div class="entry-thumbnail">
+              <a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/"><img width="250" height="175" src="/medias/feature/9.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
             </div>
             <br>
             <div class="entry-summary">
@@ -362,7 +397,7 @@ var themeMenus = {};
 
         
           <p class="article-more-link">
-            <a href="/2021/07/14/blog%20-%20Copy/#more">Continue Reading →</a>
+            <a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/#more">Continue Reading →</a>
           </p>
         </div>
       
@@ -403,7 +438,7 @@ var themeMenus = {};
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2023/07/11/blog/">A good path towards better diamond painting</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/07/11/blog/">How do I start custom diamond painting and more</a></h6>
               <span>July 11, 2023</span>
             </div>
 
@@ -415,8 +450,20 @@ var themeMenus = {};
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2021/07/14/blog%20-%20Copy/">diamond painting</a></h6>
-              <span>July 14, 2021</span>
+              <h6 style="margin: 0;"><a href="/2022/09/11/thanks%20for%20being%20here/">Thanks for being here!</a></h6>
+              <span>September 11, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix recent">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/">Famliy series of diamond painting</a></h6>
+              <span>July 8, 2021</span>
             </div>
 
           </li>
@@ -438,7 +485,7 @@ var themeMenus = {};
           
    		
           
-            <li><a href="mailto:lovecustom@gmail.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
+            <li><a href="mailto:lovecustom.uk@gmail.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
           
    		
    		</ul>
@@ -472,7 +519,7 @@ var themeMenus = {};
     <h3 class="widget-title">Archives</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -495,7 +542,7 @@ var themeMenus = {};
           
       </div>
       <div class="site-credit">
-        Theme by <a href="#" target="_blank">MegaBolD</a>
+        Theme by <a href="#" target="_blank">lovecustom</a>
       </div>
       <br>
       
@@ -538,15 +585,13 @@ var themeMenus = {};
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
     <a href="/diamond%20painting/" class="mobile-nav-link">Diamond painting</a>
   
     <a href="/Night-Light-Custom/" class="mobile-nav-link">Night Light</a>
   
     <a href="/Custom-Bag/" class="mobile-nav-link">Custom Bag</a>
   
-    <a href="/about" class="mobile-nav-link">About</a>
+    <a href="/about/" class="mobile-nav-link">About</a>
   
 </nav> -->
     

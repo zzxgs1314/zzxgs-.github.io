@@ -86,15 +86,13 @@ var themeMenus = {};
 
   themeMenus["/"] = "Home"; 
 
-  themeMenus["/archives"] = "Archives"; 
-
   themeMenus["/diamond%20painting/"] = "diamond painting"; 
 
   themeMenus["/Night-Light-Custom/"] = "night light"; 
 
   themeMenus["/Custom-Bag/"] = "custom bag"; 
 
-  themeMenus["/about"] = "About"; 
+  themeMenus["/about/"] = "About"; 
 
 </script>
 
@@ -141,15 +139,13 @@ var themeMenus = {};
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
                 
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
-                
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/diamond%20painting/">diamond painting</a> </li>
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/Night-Light-Custom/">night light</a> </li>
                 
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/Custom-Bag/">custom bag</a> </li>
                 
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about/">About</a> </li>
                 
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" style="float: right;"><div id="search-form-wrap">
     
@@ -198,33 +194,6 @@ var themeMenus = {};
 </header>
 
 
-  <div id="originBgDiv" style="background: #fff; width: 100%;">
-
-      <div style="max-height:600px; overflow: hidden;  display: flex; display: -webkit-flex; align-items: center;">
-        <img id="originBg" width="100%" alt="" src="">
-      </div>
-
-  </div>
-
-  <script>
-  function setAboutIMG(){
-      var imgUrls = "css/images/pose.jpg,https://source.unsplash.com/collection/954550/1920x1080".split(",");
-      var random = Math.floor((Math.random() * imgUrls.length ));
-      if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-        document.getElementById("originBg").src=imgUrls[random];
-      } else {
-        document.getElementById("originBg").src='/' + imgUrls[random];
-      }
-  }
-  bgDiv=document.getElementById("originBgDiv");
-  if(location.pathname.match('about')){
-    setAboutIMG();
-    bgDiv.style.display='block';
-  }else{
-    bgDiv.style.display='none';
-  }
-  </script>
-
 
 
   <div id="container" style>
@@ -233,7 +202,7 @@ var themeMenus = {};
       <div id="content" class="outer">
         
           <section id="main">
-  <div class="archives-tags-wrap"><blockquote><span>There are 2 posts in total till now.</span></blockquote>
+  <div class="archives-tags-wrap"><blockquote><span>There are 3 posts in total till now.</span></blockquote>
 
 
 
@@ -261,7 +230,37 @@ var themeMenus = {};
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/2023/07/11/blog/">A good path towards better diamond painting</a>
+      <a class="archive-article-title" href="/2023/07/11/blog/">How do I start custom diamond painting and more</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+	
+		
+		
+		  
+		    </div></section>
+		  
+		  
+		  <section class="archives-wrap">
+		    <div class="archive-year-wrap">
+		      <h1><a href="/archives/2022" class="archive-year">2022</a></h1>
+		    </div>
+		    <div class="archives">
+		
+		<article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/2022/09/11/thanks%20for%20being%20here/" class="archive-article-date">
+		  <time datetime="2022-09-11T21:08:18.000Z" itemprop="datePublished">Sep 11, 2022</time>
+	  </a>
+      
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/2022/09/11/thanks%20for%20being%20here/">Thanks for being here!</a>
     </h1>
   
 
@@ -285,13 +284,13 @@ var themeMenus = {};
   <div class="archive-article-inner">
     <header class="archive-article-header">
 
-      <a href="/2021/07/14/blog%20-%20Copy/" class="archive-article-date">
-		  <time datetime="2021-07-14T21:08:18.000Z" itemprop="datePublished">Jul 14, 2021</time>
+      <a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/" class="archive-article-date">
+		  <time datetime="2021-07-08T21:08:18.000Z" itemprop="datePublished">Jul 08, 2021</time>
 	  </a>
       
   
     <h1 class="thumb" itemprop="name">
-      <a class="archive-article-title" href="/2021/07/14/blog%20-%20Copy/">diamond painting</a>
+      <a class="archive-article-title" href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/">Famliy series of diamond painting</a>
     </h1>
   
 
@@ -323,7 +322,7 @@ var themeMenus = {};
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2023/07/11/blog/">A good path towards better diamond painting</a></h6>
+              <h6 style="margin: 0;"><a href="/2023/07/11/blog/">How do I start custom diamond painting and more</a></h6>
               <span>July 11, 2023</span>
             </div>
 
@@ -335,8 +334,20 @@ var themeMenus = {};
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2021/07/14/blog%20-%20Copy/">diamond painting</a></h6>
-              <span>July 14, 2021</span>
+              <h6 style="margin: 0;"><a href="/2022/09/11/thanks%20for%20being%20here/">Thanks for being here!</a></h6>
+              <span>September 11, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix recent">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2021/07/08/Famliy%20series%20of%20diamond%20painting/">Famliy series of diamond painting</a></h6>
+              <span>July 8, 2021</span>
             </div>
 
           </li>
@@ -358,7 +369,7 @@ var themeMenus = {};
           
    		
           
-            <li><a href="mailto:lovecustom@gmail.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
+            <li><a href="mailto:lovecustom.uk@gmail.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
           
    		
    		</ul>
@@ -392,7 +403,7 @@ var themeMenus = {};
     <h3 class="widget-title">Archives</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -415,7 +426,7 @@ var themeMenus = {};
           
       </div>
       <div class="site-credit">
-        Theme by <a href="#" target="_blank">MegaBolD</a>
+        Theme by <a href="#" target="_blank">lovecustom</a>
       </div>
       <br>
       
@@ -458,15 +469,13 @@ var themeMenus = {};
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
     <a href="/diamond%20painting/" class="mobile-nav-link">Diamond painting</a>
   
     <a href="/Night-Light-Custom/" class="mobile-nav-link">Night Light</a>
   
     <a href="/Custom-Bag/" class="mobile-nav-link">Custom Bag</a>
   
-    <a href="/about" class="mobile-nav-link">About</a>
+    <a href="/about/" class="mobile-nav-link">About</a>
   
 </nav> -->
     
